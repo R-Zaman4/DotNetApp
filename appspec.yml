@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+hooks:
+  BeforeInstall:
+    - location: before.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: after.sh
+      timeout: 300
+      runas: root
