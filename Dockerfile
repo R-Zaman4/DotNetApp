@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY /usr/share/nginx/html/index.html
+COPY DotNetCoreWebApp.csproj /usr/share/nginx/csproj/DotNetCoreWebApp.csproj
